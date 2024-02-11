@@ -1,4 +1,4 @@
-import logo from "../assets/images/ffvii-logo-small.webp";
+import logo from "../assets/images/ffvii-logo.png";
 import squareLogo from "../assets/images/square-enix-logo-small.png";
 
 export default function Header() {

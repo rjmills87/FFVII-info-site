@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-  .font-outline-1 {
+  .font-outline-1-red {
     -webkit-text-stroke: 0.75px red;
   }
 
-  .font-outline-half {
+  .font-outline-half-red {
     -webkit-text-stroke: 0.2px red;
+  }
+
+  .font-outline-1-blue {
+    -webkit-text-stroke: 0.75px cyan;
+  }
+
+  .font-outline-half-blue {
+    -webkit-text-stroke: 0.2px cyan;
   }
 }
