@@ -5,6 +5,7 @@ export default function AboutBanner() {
   return (
     <div className="relative">
       <img
+        className="w-full"
         src={bannerImage}
         alt="The main protagonists of Final Fantasy VII standing on a bridge looking out over the city of Midgar"
       />
