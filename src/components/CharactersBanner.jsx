@@ -1,5 +1,6 @@
 import Characters from "./Characters";
 import CharacterProfile from "./CharacterProfile";
+import bannerImage from "../assets/images/ffviir-zoom-shinra.jpg";
 import { useState } from "react";
 import cloudProfileImage from "../assets/images/character-profile-images/cloud-profile-img.webp";
 
@@ -16,17 +17,23 @@ export default function CharactersBanner() {
   };
 
   return (
-    <div>
-      <h3 className="text-4xl font-bold text-center">Characters</h3>
-      <Characters onCharacterSelect={handleCharacterSelect} />
-      {selectedCharacter && (
-        <CharacterProfile
-          imgPath={selectedCharacter.profileImage}
-          altText={selectedCharacter.name}
-          characterName={selectedCharacter.name}
-          characterDescription={selectedCharacter.description}
-        />
-      )}
+    <div className="relative">
+      <img src={bannerImage} alt="" />
+      <div className="absolute inset-0 bg-black opacity-30"></div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
+        <h3 className="text-5xl text-white font-outline-1-blue font-bold text-center pt-6 pb-10 mt-12">
+          Characters
+        </h3>
+        <Characters onCharacterSelect={handleCharacterSelect} />
+        {selectedCharacter && (
+          <CharacterProfile
+            imgPath={selectedCharacter.profileImage}
+            altText={selectedCharacter.name}
+            characterName={selectedCharacter.name}
+            characterDescription={selectedCharacter.description}
+          />
+        )}
+      </div>
     </div>
   );
 }
