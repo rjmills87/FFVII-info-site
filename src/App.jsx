@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import StoryBanner from "./components/StoryBanner";
 import HistoryBanner from "./components/HistoryBanner";
 import CharactersBanner from "./components/CharactersBanner";
+import ScreenshotsBanner from "./components/ScreenshotsBanner";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <StoryBanner />
       <HistoryBanner />
       <CharactersBanner />
+      <ScreenshotsBanner />
     </>
   );
 }
