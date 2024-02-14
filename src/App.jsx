@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <StoryBanner />
+      {/* <Hero /> */}
+      {/* <StoryBanner /> */}
       <HistoryBanner />
-      <CharactersBanner />
-      <ScreenshotsBanner />
-      <Footer />
+      {/* <CharactersBanner /> */}
+      {/* <ScreenshotsBanner /> */}
+      {/* <Footer /> */}
     </>
   );
 }
