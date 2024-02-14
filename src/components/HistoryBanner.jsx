@@ -3,28 +3,28 @@ import boxArtImage from "../assets/images/ffviir-boxart.png";
 
 export default function AboutBanner() {
   return (
-    <div className="relative">
+    <div className="lg:relative  bg-gray-900">
       <img
         className="w-full"
         src={bannerImage}
         alt="The main protagonists of Final Fantasy VII standing on a bridge looking out over the city of Midgar"
       />
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      {/* <div className="absolute inset-0 bg-black opacity-30"></div> */}
 
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
-        <div className="flex justify-evenly items-center ">
-          <div>
+      <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2 lg:w-full">
+        <div className="flex flex-col-reverse justify-evenly items-center ">
+          <div className="p-8">
             <img
-              className="h-96 w-72"
+              className="h-52 w-42 md:h-80 md:w-64"
               src={boxArtImage}
               alt="Final Fantasy VII Remake Box Art for PlayStation 4"
             />
           </div>
-          <div className="flex flex-col w-1/2">
-            <h2 className="text-4xl font-bold text-white pb-4 font-outline-1-blue">
+          <div className="flex flex-col p-8">
+            <h2 className="text-xl md:text-2xl font-bold text-white text-center pb-4 font-outline-1-blue">
               The History of FINAL FANTASY VII REMAKE
             </h2>
-            <p className="text-lg text-white leading-7 font-outline-half-blue">
+            <p className="text-sm md:text-lg text-white text-center leading-7 font-outline-half-blue">
               The development history of the "Final Fantasy VII Remake" is a
               tale of anticipation and ambition. Originally announced in 2015,
               the project promised to reimagine the iconic 1997 RPG with modern

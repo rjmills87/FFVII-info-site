@@ -30,7 +30,7 @@ export default function Carousel({ slides }) {
   }, [currentSlide]);
 
   return (
-    <div className="w-[60%] m-auto">
+    <div className="w-[90%] md:w-[75%] lg:w-[60%] m-auto">
       <div className="overflow-hidden relative">
         <div
           className="flex transition ease-out duration-300"

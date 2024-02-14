@@ -69,15 +69,15 @@ export default function Characters(props) {
   };
 
   return (
-    <div className="flex justify-center gap-10">
-      {characters.map((character, id) => (
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-6">
+      {characters.map((character) => (
         <div
-          className="border-4 border-teal-500 cursor-pointer"
+          className="lg:border-4 lg:border-teal-500 cursor-pointer flex justify-center items-center"
           key={character.id}
           onClick={() => handleClick(character)}
         >
           <img
-            className="h-20 w-20 hover:bg-slate-300"
+            className="h-auto hover:bg-slate-300 border-4 border-teal-400"
             src={character.thumbnailImage}
             alt={character.name}
           />
