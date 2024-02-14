@@ -73,7 +73,7 @@ export default function Characters(props) {
       {characters.map((character, id) => (
         <div
           className="border-4 border-teal-500 cursor-pointer"
-          key={id}
+          key={character.id}
           onClick={() => handleClick(character)}
         >
           <img

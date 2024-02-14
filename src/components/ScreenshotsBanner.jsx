@@ -79,7 +79,7 @@ export default function ScreenshotsBanner() {
   return (
     <div className="relative">
       <img src={bannerImage} alt="Wall Market Colosseum" />
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
         <h4 className="text-5xl text-white font-outline-1-red font-bold text-center pt-6 pb-10 mt-12">
           Screenshots

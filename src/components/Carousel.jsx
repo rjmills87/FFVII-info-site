@@ -1,18 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import arrow from "../assets/images/arrow.png";
 
 export default function Carousel({ slides }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  let previousSlide = () => {
+  const previousSlide = () => {
     if (currentSlide === 0) setCurrentSlide(slides.length - 1);
     else setCurrentSlide(currentSlide - 1);
   };
 
-  let nextSlide = () => {
+  const nextSlide = () => {
     if (currentSlide === slides.length - 1) setCurrentSlide(0);
     else setCurrentSlide(currentSlide + 1);
   };
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "ArrowLeft") {
+        previousSlide();
+      } else if (event.key === "ArrowRight") {
+        nextSlide();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [currentSlide]);
 
   return (
     <div className="w-[60%] m-auto">
@@ -26,11 +41,24 @@ export default function Carousel({ slides }) {
           ))}
         </div>
         <div className="absolute top-0 h-full w-full flex justify-between align-center">
-          <button onClick={previousSlide}>
-            <img className="rotate-180" src={arrow} alt="arrow-left" />
+          <button
+            onClick={previousSlide}
+            aria-label="Previous Slide"
+            aria-disabled={currentSlide === 0}
+          >
+            <img
+              className="rotate-180"
+              src={arrow}
+              alt="Previous Slide"
+              aria-hidden="true"
+            />
           </button>
-          <button onClick={nextSlide}>
-            <img src={arrow} alt="arrow-right" />
+          <button
+            onClick={nextSlide}
+            aria-label="Next Slide"
+            aria-disabled={currentSlide === slides.length - 1}
+          >
+            <img src={arrow} alt="Next Slide" aria-hidden="true" />
           </button>
         </div>
       </div>

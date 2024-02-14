@@ -5,6 +5,7 @@ import StoryBanner from "./components/StoryBanner";
 import HistoryBanner from "./components/HistoryBanner";
 import CharactersBanner from "./components/CharactersBanner";
 import ScreenshotsBanner from "./components/ScreenshotsBanner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HistoryBanner />
       <CharactersBanner />
       <ScreenshotsBanner />
+      <Footer />
     </>
   );
 }
