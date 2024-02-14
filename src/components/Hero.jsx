@@ -19,8 +19,8 @@ export default function Hero() {
       />
       <div className="absolute left-1/2 top-2/3 transform -translate-x-1/2 -translate-y-1/2">
         <div className="flex justify-evenly gap-5 md:gap-10">
-          <img className="h-36" src={sephirothImage} alt="" />
-          <img className="h-36" src={cloudImage} alt="" />
+          <img className="h-20 md:h-36" src={sephirothImage} alt="" />
+          <img className="h-20 md:h-36" src={cloudImage} alt="" />
         </div>
       </div>
     </div>

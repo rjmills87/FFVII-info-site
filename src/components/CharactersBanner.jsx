@@ -17,11 +17,11 @@ export default function CharactersBanner() {
   };
 
   return (
-    <div className="relative">
-      <img className="hidden lg:auto" src={bannerImage} alt="" />
+    <div className="lg:relative">
+      <img className="hidden bg-teal-700 lg:auto" src={bannerImage} alt="" />
       <div className="hidden lg:absolute lg:inset-0 lg:bg-black lg:opacity-30"></div>
       <div className="bg-teal-700 lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full">
-        <h3 className="text-4xl text-white font-outline-1-blue font-bold text-center pt-6 pb-10 mt-12">
+        <h3 className="text-4xl text-white font-outline-1-blue font-bold text-center pt-6 pb-10 lg:mt-12">
           Characters
         </h3>
         <Characters onCharacterSelect={handleCharacterSelect} />
