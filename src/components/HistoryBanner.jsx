@@ -11,20 +11,20 @@ export default function AboutBanner() {
       />
       <div className="lg:absolute lg:inset-0 lg:bg-black lg:opacity-30"></div>
 
-      <div className="lg:absolute lg:top-1/4 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2 lg:w-full">
+      <div className="lg:absolute lg:top-12 xl:top-32 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2 lg:w-full">
         <div className="flex flex-col-reverse justify-evenly items-center lg:flex-row">
           <div className="p-8 lg:p-0">
             <img
-              className="h-52 w-42 md:h-80 md:w-64 lg:h-96"
+              className="h-52 w-42 md:h-80 md:w-64 lg:h-72 lg:w-56 xl:h-96 xl:w-72"
               src={boxArtImage}
               alt="Final Fantasy VII Remake Box Art for PlayStation 4"
             />
           </div>
           <div className="flex flex-col p-8 lg:p-0 lg:w-1/2">
-            <h2 className="text-lg font-bold text-white text-center pb-4 font-outline-1-blue md:text-2xl lg:text-left lg:text-4xl lg:scroll-pb-4">
+            <h2 className="text-lg font-bold text-white text-center pb-4 font-outline-1-blue md:text-2xl lg:text-left xl:text-4xl lg:scroll-pb-4">
               The History of FINAL FANTASY VII REMAKE
             </h2>
-            <p className="text-sm md:text-lg text-white text-center leading-7 font-outline-half-blue lg:text-left lg:leading-7">
+            <p className="text-sm md:text-lg lg:text-sm xl:text-xl text-white text-center leading-7 font-outline-half-blue lg:text-left lg:leading-7">
               The development history of the "Final Fantasy VII Remake" is a
               tale of anticipation and ambition. Originally announced in 2015,
               the project promised to reimagine the iconic 1997 RPG with modern

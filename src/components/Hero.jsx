@@ -13,7 +13,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <img
-        className="h-28 md:h-44 lg:h-64 xl:h-72 absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2"
+        className="h-28 md:h-44 lg:h-64 xl:h-80 absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2"
         src={logoLarge}
         alt="Final Fantasy VII Remake Intergrade Logo"
       />

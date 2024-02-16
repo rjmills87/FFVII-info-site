@@ -7,12 +7,12 @@ export default function AboutBanner() {
         src={bannerImage}
         alt="The main protagonists of Final Fantasy VII standing on a bridge looking out over the city of Midgar"
       />
-      <div className="lg:absolute lg:inset-0 lg:bg-black lg:opacity-30"></div>
-      <div className=" bg-gray-900 p-8 lg:bg-transparent lg:absolute lg:left-1/3 lg:top-4 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2">
-        <h2 className=" text-lg font-bold text-white text-center font-outline-1-red pb-4 md:text-2lg lg:w-3/4 lg:text-4lg lg:text-left lg:ml-8 lg:pb-4">
+      <div className="lg:absolute lg:inset-0 lg:bg-black lg:opacity-50 xl:opacity-40"></div>
+      <div className=" bg-gray-900 p-8 lg:p-2 lg:bg-transparent lg:absolute lg:left-1/3 lg:top-8 xl:top-10 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2">
+        <h2 className=" text-lg font-bold text-white text-center font-outline-1-red pb-4 md:text-2xl lg:w-3/4 lg:text-2xl xl:text-4xl lg:text-left lg:ml-6 xl:ml-8 lg:pb-3 xl:pb-4">
           The Story of FINAL FANTASY VII REMAKE
         </h2>
-        <p className="text-xs text-white text-center font-outline-half-red  md:text-lg lg:w-2/3 lg:ml-8 lg:leading-7 lg:text-left">
+        <p className="text-xs text-white text-center font-outline-half-red  md:text-lg lg:text-sm xl:text-xl lg:w-auto xl:w-2/3 lg:ml-6 xl:ml-8 lg:leading-7 lg:text-left">
           "Final Fantasy VII Remake" revisits the iconic tale of the original
           1997 RPG, offering a reimagined and expanded experience for both
           longtime fans and newcomers. Set in the dystopian city of Midgar, the
