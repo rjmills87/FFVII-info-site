@@ -18,10 +18,10 @@ export default function CharactersBanner() {
 
   return (
     <div className="lg:relative">
-      <img className="hidden bg-teal-700 lg:auto" src={bannerImage} alt="" />
+      <img className="hidden lg:block" src={bannerImage} alt="" />
       <div className="hidden lg:absolute lg:inset-0 lg:bg-black lg:opacity-30"></div>
-      <div className="bg-teal-700 lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full">
-        <h3 className="text-4xl text-white font-outline-1-blue font-bold text-center pt-6 pb-10 lg:mt-12">
+      <div className="bg-gradient-to-b from-teal-500 to-teal-900 lg:absolute lg:top-1/4 xl:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full lg:bg-transparent lg:bg-none">
+        <h3 className="text-4xl text-white font-outline-1-blue font-bold text-center pt-10 pb-10 lg:mt-32">
           Characters
         </h3>
         <Characters onCharacterSelect={handleCharacterSelect} />

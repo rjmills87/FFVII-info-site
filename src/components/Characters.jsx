@@ -69,15 +69,15 @@ export default function Characters(props) {
   };
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-6">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-6 lg:flex lg:justify-center lg:gap-10">
       {characters.map((character) => (
         <div
-          className="lg:border-4 lg:border-teal-500 cursor-pointer flex justify-center items-center"
+          className="cursor-pointer flex justify-center items-center lg:block"
           key={character.id}
           onClick={() => handleClick(character)}
         >
           <img
-            className="h-auto hover:bg-slate-300 border-4 border-teal-400"
+            className="h-auto hover:bg-slate-300 border-4 border-teal-300 xl:h-26 xl:w-26"
             src={character.thumbnailImage}
             alt={character.name}
           />

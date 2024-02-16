@@ -3,7 +3,7 @@ import boxArtImage from "../assets/images/ffviir-boxart.png";
 
 export default function AboutBanner() {
   return (
-    <div className="lg:relative  bg-gray-900 lg:bg-transparent">
+    <div className="lg:relative bg-gray-900 lg:bg-transparent">
       <img
         className="w-full lg:w-auto"
         src={bannerImage}
@@ -15,13 +15,13 @@ export default function AboutBanner() {
         <div className="flex flex-col-reverse justify-evenly items-center lg:flex-row">
           <div className="p-8 lg:p-0">
             <img
-              className="h-52 w-42 md:h-80 md:w-64 lg:h-96 lg:w-72"
+              className="h-52 w-42 md:h-80 md:w-64 lg:h-96"
               src={boxArtImage}
               alt="Final Fantasy VII Remake Box Art for PlayStation 4"
             />
           </div>
           <div className="flex flex-col p-8 lg:p-0 lg:w-1/2">
-            <h2 className="text-xl font-bold text-white text-center pb-4 font-outline-1-blue md:text-2xl lg:text-left lg:text-4xl lg:scroll-pb-4">
+            <h2 className="text-lg font-bold text-white text-center pb-4 font-outline-1-blue md:text-2xl lg:text-left lg:text-4xl lg:scroll-pb-4">
               The History of FINAL FANTASY VII REMAKE
             </h2>
             <p className="text-sm md:text-lg text-white text-center leading-7 font-outline-half-blue lg:text-left lg:leading-7">

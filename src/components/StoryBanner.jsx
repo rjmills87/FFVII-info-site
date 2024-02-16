@@ -9,7 +9,7 @@ export default function AboutBanner() {
       />
       <div className="lg:absolute lg:inset-0 lg:bg-black lg:opacity-30"></div>
       <div className=" bg-gray-900 p-8 lg:bg-transparent lg:absolute lg:left-1/3 lg:top-4 lg:transform lg:-translate-x-1/2 lg-translate-y-1/2">
-        <h2 className=" text-xl font-bold text-white text-center font-outline-1-red pb-4 md:text-2xl lg:w-3/4 lg:text-4xl lg:text-left lg:ml-8 lg:pb-4">
+        <h2 className=" text-lg font-bold text-white text-center font-outline-1-red pb-4 md:text-2lg lg:w-3/4 lg:text-4lg lg:text-left lg:ml-8 lg:pb-4">
           The Story of FINAL FANTASY VII REMAKE
         </h2>
         <p className="text-xs text-white text-center font-outline-half-red  md:text-lg lg:w-2/3 lg:ml-8 lg:leading-7 lg:text-left">
