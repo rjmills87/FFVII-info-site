@@ -1,4 +1,4 @@
-import bannerImage from "../assets/images/landscape-high-VmmC7e28e.webp";
+import bannerImage from "../assets/images/ffviir-group-img.webp";
 
 export default function AboutBanner() {
   return (

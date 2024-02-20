@@ -5,7 +5,7 @@ export default function AboutBanner() {
   return (
     <div className="lg:relative bg-gray-900 lg:bg-transparent">
       <img
-        className="w-full lg:w-auto"
+        className="w-full lg:w-auto xl:w-full"
         src={bannerImage}
         alt="The main protagonists of Final Fantasy VII standing on a bridge looking out over the city of Midgar"
       />

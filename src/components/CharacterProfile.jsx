@@ -3,7 +3,7 @@ export default function CharacterProfile(props) {
     <div className="flex flex-col-reverse justify-between items-center lg:pt-8 lg:pb-8 lg:flex-row lg:ml-0 lg:mr-16 xl:ml-0 xl:mr-40 xl:justify-evenly">
       <div className=" lg:w-1/3 xl:w-1/2 ">
         <img
-          className="h-96 xl:w-auto xl:h-auto"
+          className="h-96 xl:w-auto xl:h-[800px]"
           src={props.imgPath}
           alt={props.altText}
         />

@@ -1,4 +1,4 @@
-import heroImage from "../assets/images/ffviir-zoom-cloud-shinra.jpg";
+import heroImage from "../assets/images/ffviir-cloud-reactor.jpg";
 import logoLarge from "../assets/images/ffvii-logo.png";
 import cloudImage from "../assets/images/cloud-1.webp";
 import sephirothImage from "../assets/images/sephiroth-1.webp";

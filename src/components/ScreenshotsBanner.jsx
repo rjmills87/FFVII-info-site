@@ -1,5 +1,5 @@
 import Carousel from "./Carousel";
-import bannerImage from "../assets/images/ffviir-zoom-colosseum.jpg";
+import bannerImage from "../assets/images/ffviir-colosseum.jpg";
 
 export default function ScreenshotsBanner() {
   const slides = [
