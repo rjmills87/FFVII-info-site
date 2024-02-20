@@ -17,6 +17,7 @@ export default function AboutBanner() {
             <img
               className="h-52 w-42 md:h-80 md:w-64 lg:h-72 lg:w-56 xl:h-96 xl:w-72"
               src={boxArtImage}
+              s
               alt="Final Fantasy VII Remake Box Art for PlayStation 4"
             />
           </div>

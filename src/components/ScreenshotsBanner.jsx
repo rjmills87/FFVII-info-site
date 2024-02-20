@@ -1,94 +1,77 @@
 import Carousel from "./Carousel";
 import bannerImage from "../assets/ffviir-colosseum.jpg";
-import screenshot1 from "../assets/screenshot-1.jpeg";
-import screenshot2 from "../assets/screenshot-2.jpeg";
-import screenshot3 from "../assets/screenshot-3.jpeg";
-import screenshot4 from "../assets/screenshot-4.jpeg";
-import screenshot5 from "../assets/screenshot-5.jpeg";
-import screenshot6 from "../assets/screenshot-6.jpeg";
-import screenshot7 from "../assets/screenshot-7.jpeg";
-import screenshot8 from "../assets/screenshot-8.jpeg";
-import screenshot9 from "../assets/screenshot-9.jpeg";
-import screenshot10 from "../assets/screenshot-10.jpeg";
-import screenshot11 from "../assets/screenshot-11.jpeg";
-import screenshot12 from "../assets/screenshot-12.jpeg";
-import screenshot13 from "../assets/screenshot-13.jpeg";
-import screenshot14 from "../assets/screenshot-14.jpeg";
-import screenshot15 from "../assets/screenshot-15.jpeg";
-import screenshot16 from "../assets/screenshot-16.jpeg";
-import screenshot17 from "../assets/screenshot-17jpeg";
 
 export default function ScreenshotsBanner() {
   const slides = [
     {
-      imgPath: { screenshot1 },
+      imgPath: "/screenshot-1.jpeg",
       altText: "Barrett Wallace firing a machine gun",
     },
     {
-      imgPath: { screenshot2 },
+      imgPath: "/screenshot-2.jpeg",
       altText:
         "Aerith Gainsborough casting a magic spell on an enemy character during battle",
     },
     {
-      imgPath: { screenshot3 },
+      imgPath: "/screenshot-3.jpeg",
       altText: "Guardian Summon Ifrit fighting against an enemy robot",
     },
     {
-      imgPath: { screenshot4 },
+      imgPath: "/screenshot-4.jpeg",
       altText: "Wall Market at night",
     },
     {
-      imgPath: { screenshot5 },
+      imgPath: "/screenshot-5.jpeg",
       altText: "7th Heaven Bar",
     },
     {
-      imgPath: { screenshot6 },
+      imgPath: "/screenshot-6.jpeg",
       altText: "Tifa Lockheart leaning on the bar in 7th Heaven",
     },
     {
-      imgPath: { screenshot7 },
+      imgPath: "/screenshot-7.jpeg",
       altText: "Cloud Strife",
     },
     {
-      imgPath: { screenshot8 },
+      imgPath: "/screenshot-8.jpeg",
       altText: "Cloud Strife having a conversation with Aerith Gainsborough",
     },
     {
-      imgPath: { screenshot9 },
+      imgPath: "/screenshot-9.jpeg",
       altText:
         "Cloud Strife and Tifa Lockheart stading back to back ready for battle",
     },
     {
-      imgPath: { screenshot10 },
+      imgPath: "/screenshot-10.jpeg",
       altText: "Sephiroth standing infront of a firey backdrop ",
     },
     {
-      imgPath: { screenshot11 },
+      imgPath: "/screenshot-11.jpeg",
       altText: "Cloud Strife looking up at a Mako Reactor",
     },
     {
-      imgPath: { screenshot12 },
+      imgPath: "/screenshot-12.jpeg",
       altText: "Cloud Strife in battle gainst Shinra Guards",
     },
     {
-      imgPath: { screenshot13 },
+      imgPath: "/screenshot-13.jpeg",
       altText: "Aerith Gainsborough in battle against a large monster",
     },
     {
-      imgPath: { screenshot14 },
+      imgPath: "/screenshot-14.jpeg",
       altText: "Inside the church in the Sector 5 slums",
     },
     {
-      imgPath: { screenshot15 },
+      imgPath: "/screenshot-15.jpeg",
       altText: "Aerith Gainsborough's house in the sector 5 slums",
     },
     {
-      imgPath: { screenshot16 },
+      imgPath: "/screenshot-16.jpeg",
       altText:
         "Cloud, Jessie, Biggs and Wedge on motorcycles in a chase with Shinra guards",
     },
     {
-      imgPath: { screenshot17 },
+      imgPath: "/screenshot-17.jpeg",
       altText:
         "Tifa Lockheart in battle against a large monster performing a somersault kick",
     },
