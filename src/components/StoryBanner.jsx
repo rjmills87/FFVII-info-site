@@ -1,4 +1,4 @@
-import bannerImage from "../assets/images/ffviir-group-img.webp";
+import bannerImage from "../assets/ffviir-group-img.webp";
 
 export default function AboutBanner() {
   return (

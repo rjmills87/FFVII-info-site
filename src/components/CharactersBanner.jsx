@@ -1,8 +1,8 @@
 import Characters from "./Characters";
 import CharacterProfile from "./CharacterProfile";
-import bannerImage from "../assets/images/ffviir-shinra-tower.jpg";
+import bannerImage from "../assets/ffviir-shinra-tower.jpg";
 import { useState } from "react";
-import cloudProfileImage from "../assets/images/character-profile-images/cloud-profile-img.webp";
+import cloudProfileImage from "../assets/cloud-profile-img.webp";
 
 export default function CharactersBanner() {
   const [selectedCharacter, setSelectedCharacter] = useState({

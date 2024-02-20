@@ -1,5 +1,5 @@
-import githubIcon from "../assets/images/github.svg";
-import linkedinIcon from "../assets/images/linkedin.svg";
+import githubIcon from "../assets/github.svg";
+import linkedinIcon from "../assets/linkedin.svg";
 
 export default function Footer() {
   const date = new Date();

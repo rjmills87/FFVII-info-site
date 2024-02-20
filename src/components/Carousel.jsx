@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import arrow from "../assets/images/arrow.png";
+import arrow from "../assets/arrow.png";
 
 export default function Carousel({ slides }) {
   const [currentSlide, setCurrentSlide] = useState(0);

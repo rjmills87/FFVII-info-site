@@ -1,16 +1,16 @@
-import cloudThumbnail from "../assets/images/character-thumbnails/cloud-thumbnail.webp";
-import tifaThumbnail from "../assets/images/character-thumbnails/tifa-thumbnail.webp";
-import barrettThumbnail from "../assets/images/character-thumbnails/barrett-thumbnail.webp";
-import aerithThumbnail from "../assets/images/character-thumbnails/aerith-tumbnail.webp";
-import redXiiiThumbnail from "../assets/images/character-thumbnails/red-xiii-thumbnail.webp";
-import sephirothThumbnail from "../assets/images/character-thumbnails/sephiroth-thumbnail.webp";
+import cloudThumbnail from "../assets/cloud-thumbnail.webp";
+import tifaThumbnail from "../assets/tifa-thumbnail.webp";
+import barrettThumbnail from "../assets/barrett-thumbnail.webp";
+import aerithThumbnail from "../assets/aerith-tumbnail.webp";
+import redXiiiThumbnail from "../assets/red-xiii-thumbnail.webp";
+import sephirothThumbnail from "../assets/sephiroth-thumbnail.webp";
 
-import cloudProfileImage from "../assets/images/character-profile-images/cloud-profile-img.webp";
-import tifaProfileImage from "../assets/images/character-profile-images/tifa-profile-img.webp";
-import barrettProfileImage from "../assets/images/character-profile-images/barrett-profile-img.webp";
-import aerithProfileImage from "../assets/images/character-profile-images/aerith-profile-img.webp";
-import redXiiiProfileImage from "../assets/images/character-profile-images/red-xiii-profile-img.webp";
-import sephirothProfileImage from "../assets/images/character-profile-images/sephiroth-profile-img.webp";
+import cloudProfileImage from "../assets/cloud-profile-img.webp";
+import tifaProfileImage from "../assets/tifa-profile-img.webp";
+import barrettProfileImage from "../assets/barrett-profile-img.webp";
+import aerithProfileImage from "../assets/aerith-profile-img.webp";
+import redXiiiProfileImage from "../assets/red-xiii-profile-img.webp";
+import sephirothProfileImage from "../assets/sephiroth-profile-img.webp";
 
 export default function Characters(props) {
   const characters = [

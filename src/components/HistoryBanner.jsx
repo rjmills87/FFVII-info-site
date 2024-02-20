@@ -1,5 +1,5 @@
-import bannerImage from "../assets/images/ffviir-midgar-city.jpg";
-import boxArtImage from "../assets/images/ffviir-boxart.png";
+import bannerImage from "../assets/ffviir-midgar-city.jpg";
+import boxArtImage from "../assets/ffviir-boxart.png";
 
 export default function AboutBanner() {
   return (
